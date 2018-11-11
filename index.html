@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample A-Frame</title>
+	 <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@ab7e2fcc2b4e95a819c0f85d9f34ab9c42bf66cc/dist/aframe-master.min.js"></script>
+	<!-- <script src="aframe-v0.8.2.min.js"></script>-->
+</head>
+<body>
+	<!-- based on a-frame hello world example https://aframe.io/examples/showcase/helloworld/-->
+	<a-scene>
+		<a-box position="-2 2 -3" rotation="0 45 0" width="5" height=".2" color="#ffffff" shadow></a-box>
+		<a-box position="0 4 -3" rotation="0 90 -45" width="5" height=".2" color="#ffffff" shadow></a-box>
+		<a-box position="2 2 -3" rotation="0 -45 0" width="5" height=".2" color="#ffffff" shadow></a-box>
+
+      	<a-sphere position="0 1.25 -5" radius="2.5" color="#ed2812" shadow></a-sphere>
+      	<a-sphere position="0 2 -1.5" radius=".35" color="#000000" shadow></a-sphere>
+
+      	<a-cylinder position="-1 0 -3" radius="0.25" height=".5" color="#000000" shadow></a-cylinder>
+      	<a-cylinder position="1 0 -3" radius="0.25" height=".5" color="#000000" shadow></a-cylinder>
+
+     	<a-plane position="0 0 -4" rotation="-90 0 0" width="20" height="40" color="#c5db48" shadow></a-plane>
+
+		<a-sky color="#9cc7d1"></a-sky>
+	</a-scene>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lights in A-Frame</title>
+	 <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@ab7e2fcc2b4e95a819c0f85d9f34ab9c42bf66cc/dist/aframe-master.min.js"></script>
+	<!-- <script src="aframe-v0.8.2.min.js"></script>-->
+</head>
+<body>
+	<!-- based on a-frame hello world example https://aframe.io/examples/showcase/helloworld/-->
+	<a-scene>
+	
+		<a-light color="yellow" position="2 1 1"></a-light>
+		<a-light type="ambient" color="#333"></a-light>
+      	<a-circle color="#F00" radius="4" position="0 0 -5" rotation="-90 0 0" shadow></a-circle>
+      	<a-cone color="#FFF" radius-bottom=".75" radius-top="0.0" height="3" position="0 1.5 -5" shadow></a-cone>
+      	<a-cone color="#FFF" radius-bottom=".75" radius-top="0.0" height="3" position="-2 1.5 -3" shadow></a-cone>
+      	<a-cone color="#CCC" radius-bottom=".75" radius-top="0.0" height="3" position="2 1.5 -3" shadow></a-cone>
+      	<a-cone color="#CCC" radius-bottom=".75" radius-top="0.0" height="3" position="0 1.5 -2" shadow></a-cone>
+
+      	<!--<a-plane position="0 0 -4" rotation="-90 0 0" width="20" height="40" color="#c5db48" shadow></a-plane>-->
+
+		<a-sky color="#042860"></a-sky>
+	</a-scene>
+</body>
+</html>
